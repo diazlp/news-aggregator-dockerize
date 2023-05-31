@@ -2,9 +2,9 @@
 
 # News Aggregator Laravel & ReactJS
 
-## - Installation Guide (Docker)
+## - Project Running & Installation Guide (Docker)
 
-to run this project, please kindly _clone/download_ the `repository`.
+to run this project, please kindly _clone/download_ the `repository` before proceeding further.
 
 **Note**: Please ensure you have `docker` installed on your system.
 
@@ -12,9 +12,14 @@ to run this project, please kindly _clone/download_ the `repository`.
 
 2. Execute the following command in your terminal:
 ```bash
-docker-compose up --build
+docker-compose build --no-cache
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wait for all the programs and dependencies to start.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After finished, proceed to execute
+```bash
+docker-compose up
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and wait for the programs to start. _(please note that this might take a while)_
 
 3.  Open another terminal, execute
 ```bash
